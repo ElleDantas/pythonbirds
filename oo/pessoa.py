@@ -16,6 +16,8 @@ if __name__ == '__main__':
     print(luciano.cumprimentar())
     print(luciano.nome)
     print(luciano.idade)
+    for filho in luciano.filhos:
+        print(filho.nome)
 
 
 
